@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+<meta charset="UTF-8">
+<title>Social Media Icons</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Font Awesome CDN - ye link icons ke liye zaroori hai -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+
+  footer {
+    background-color: #1c1c1c;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .social-icons a:hover {
+    transform: translateY(-5px);
+    opacity: 0.9;
+  }
+
+  /* Har platform ka apna original brand color */
+  .facebook { background-color: #1877F2; }
+  .instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+  .google { background-color: #DB4437; }
+  .youtube { background-color: #FF0000; }
+
+  footer p {
+    color: #aaa;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<footer>
+  <div class="social-icons">
+
+    <a href="https://facebook.com/apka-page" target="_blank" class="facebook">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <a href="https://instagram.com/apka-account" target="_blank" class="instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="https://google.com" target="_blank" class="google">
+      <i class="fa-brands fa-google"></i>
+    </a>
+
+    <a href="https://youtube.com/apka-channel" target="_blank" class="youtube">
+      <i class="fa-brands fa-youtube"></i>
+    </a>
+
+  </div>
+
+  <p>&copy; 2026 Apki Website. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

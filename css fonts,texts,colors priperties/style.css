@@ -1,0 +1,34 @@
+p1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 600;
+    text-decoration: underline;
+    color: aquamarine;
+    text-decoration-color: blue;
+    text-decoration-thickness:8px;
+    
+   
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(249, 60, 13);
+    text-align: center;
+    
+    
+}
+p2{
+    line-height: 4;
+}
+h2{
+   text-transform: capitalize;
+   color: rgb(14, 218, 240);
+   
+}
+.red{
+    width: 88px;
+    border: 4px  solid red;
+    /*overflow: hidden;*/
+    word-break: break-all;
+}
+  

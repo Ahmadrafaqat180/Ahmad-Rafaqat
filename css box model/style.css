@@ -1,0 +1,17 @@
+div{background-color: aqua;}
+.box1{
+    color: rgb(222, 103, 6);
+    margin: 10px;
+    padding: 35px;
+    border: 2px;color: rgb(214, 6, 6);
+    height: 100px;
+    box-sizing: border-box;
+}
+.box2{
+    color: rgb(106, 11, 196);
+     margin: 20px;
+    padding: 25px;
+    border: 2px;color: rgba(1, 17, 6, 0.923);
+    height: 100px;
+    box-sizing: border-box;
+}

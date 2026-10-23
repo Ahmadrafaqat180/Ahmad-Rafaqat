@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         * { box-sizing: border-box; margin: 0;
+      }
+
+body {
+  font-family: system-ui, sans-serif;
+  background: #14213d;
+  color: #fff;
+  padding: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+ 
+}
+
+.box {
+  height: 220px;
+  background: #1d2f55;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;      /* neeche se aane wala text bahar na dikhe */
+  text-align: center;
+  padding: 12px;
+ margin-bottom: 30px;
+}
+
+h1 { font-size: 2rem; }
+
+/* 1. Slide up + fade */
+.a1 h1 { animation: slideUp 1.2s ease-out infinite alternate; }
+@keyframes slideUp {
+  from { transform: translateY(150px); opacity: 0; }
+  to   { transform: translateY(0);     opacity: 1; }
+}
+.a{
+  width: 200px;
+ 
+}.o{
+  display: flex;
+  justify-content: center;
+}
+
+.b{
+  width: 288px;
+  height:px;
+}
+
+    </style>
+</head>
+<body>
+    </head>
+<body>
+  <div class="grid">
+
+    <!-- 1. Slide up + fade -->
+   <div class="box a1">
+      <h1>Hello World</h1>
+  
+
+  </body>
+</html>

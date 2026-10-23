@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --color: blue;
+            --seccolor: rgb(60, 60, 179);
+            --defpad:23px;
+            --defop:0.2;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        ul{
+            display: flex;
+        }
+        .nav{
+            background-color:var(--color)
+        }
+        .container{
+           background-color: var(--seccolor)
+        }
+       ul li{
+            list-style-type: none;
+            /*padding: 34px;*/
+            border: 2px solid var(--seccolor);
+            padding: var(--defpad);
+            opacity: var(--defop); 
+        }
+        ul :first-child{
+            --color: aqua;
+            background-color: var(--color);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="nav" >
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, in. A odio, iure, atque consequatur sed sint
+        esse ad temporibus, voluptatibus laudantium ab vitae! Odit quaerat autem expedita voluptate atque, pariatur
+        facere impedit iure molestias sunt repellendus laudantium reprehenderit nobis doloribus repudiandae neque
+        praesentium vel?
+    </div>
+</body>
+
+</html>

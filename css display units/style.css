@@ -1,0 +1,18 @@
+.box{
+    border: 2px solid blue;
+    display : inline block;
+     width: 344px;
+    padding: 45px;
+    margin: 34px;
+    text-align: center;
+   
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+h1{
+    text-align: center;
+}

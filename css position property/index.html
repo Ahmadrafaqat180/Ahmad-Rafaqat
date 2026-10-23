@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 2px solid black;
+            height: 400px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .box1 {
+            background-color: aqua;
+            /* position: relative;
+            top: 34px;
+            left: 56px;*/
+            /* position:absolute;
+            top: 0px;*/
+            position: sticky;
+            top: 0px;
+            height: 111px;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box2 {
+            background-color: azure;
+            /* position: relative;
+            top: 78px;
+            left: 11px;*/
+        }
+
+        .box3 {
+            background-color: antiquewhite;
+            /* position: fixed;
+            bottom: 0px;
+            left: 9vw;
+            height: 111px;*/
+
+        }
+
+        .box4 {
+            background-color: blueviolet;
+        }
+        .parent {
+            padding: 3px;
+            margin: 24px;
+            border: 3px solid purple;
+            /*transform filter,or prespectie can also make an element appear as positined */
+            /* position: absolute;
+            filter: invert(0);*/
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+
+</body>
+
+</html>

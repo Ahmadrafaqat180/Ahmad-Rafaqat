@@ -1,0 +1,9 @@
+body {
+  background-image: url('image.jpg');
+  background-size: cover;        /* pura background cover karega, bina stretch ke */
+  background-position: center;   /* image ko center me rakhega */
+  background-repeat: no-repeat;  /* image repeat nahi hogi */
+  background-attachment: fixed;  /* scroll karne par image fix rahegi (optional) */
+  height: 100vh;                 /* pura screen height cover karega */
+  width: 100%;
+}

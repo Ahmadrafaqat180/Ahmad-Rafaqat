@@ -1,0 +1,40 @@
+.red{
+/*class selector*/
+    background-color: rgb(236, 38, 16);
+}
+#green{
+    /* id selector*/
+    background-color: aqua;
+}
+/*cild selector*/
+div > p{
+    color: rgb(95, 7, 177);
+}
+div p{
+    /*desendent selector*/
+    background-color: rgb(22, 179, 69);
+}
+*{
+    /*uniersal selector*/
+    margin: 0;
+    padding: 0;
+}
+/*Pesuodo selector*/
+a:visited{
+color: rgb(219, 21, 166);
+}
+a:link{
+    color: rgb(222, 8, 233);
+}
+a:active{
+    background-color: blue;
+}
+a:hover{
+    background-color: rgb(6, 234, 158);
+}
+.blue{
+    color: aquamarine;
+}
+
+
+
