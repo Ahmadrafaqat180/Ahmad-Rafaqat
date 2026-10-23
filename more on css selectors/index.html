@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* .box:first-child {
+            background-color: aquamarine;
+        }
+
+       /* .box::first-line {
+            background-color: blue;
+        }*/
+       /* .boxes *{
+           color: aqua;
+           border: 2px solid black;
+           margin: 3px;
+           padding: 3px;
+        }
+        p, a, .box,[data-color="primary"]{
+            margin-top: 45px;
+        }*/
+        /*.box:nth-child(even){
+            background-color: aquamarine;
+        }*/
+       /* .box:nth-last-child(1){
+            background-color: aquamarine;
+        }*/
+        .boxes::before{
+          content: "harry is good";
+          color: blueviolet;
+        }
+          .boxes::after{
+            content: "sigma course";
+            color: rgb(19, 209, 209);
+          }
+         ::selection{
+            color: aqua;
+            background-color: black;
+        }
+        .box::first-letter{
+            color: rgb(23, 228, 40);
+        }
+        input::placeholder{
+            border: 2px solid blue;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">hey i am a box</div>
+           
+        <div class="box">hey i am a box</div>
+        <div class="box">hey i am a box</div>
+        <input type="text" placeolder="type your name">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,183 @@
+div{
+    width: 75vw;
+    height: 100vh;
+    border: 1px solid rgb(242, 235, 235);
+    border-radius: 8px;
+    margin: auto;
+    box-shadow: 0 0 10px  ;
+    position: relative;
+    overflow: hidden;
+}
+/* div h1{
+    padding: 12px;
+    color: rgb(53, 201, 53);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(155, 160, 162);
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 23px;
+    background-color: #0f766e;
+    animation: ahmadkaanimation 3s ease-in 3s ;
+}
+ @keyframes ahmadkaanimation{
+            from { transform: translateY(150px); opacity: 0; }
+  to   { transform: translateY(0);     opacity: 1; } */
+
+    h1 {
+  padding: 12px;
+  color: rgb(53, 201, 53);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid rgb(155, 160, 162);
+  margin: auto;
+  width: 80%;
+  margin-bottom: 10px;
+  border-radius: 23px;
+  background-color: #0f766e;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+h1 span {
+  display: inline-block;
+ 
+  animation: ahmadkaanimation 2s ease-in;
+}
+
+@keyframes ahmadkaanimation {
+  from {
+    transform: translateY(150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}  
+   .a1 label{
+    padding: 5px;
+   }  
+
+
+.a1 input{
+  
+   display: block;
+   margin: auto;
+   width: 87%;
+   margin:11px;
+   height: 30px;
+   
+  
+}
+.a2 label{
+    padding: 5px;
+ 
+}
+.a2 input{
+    display: block;
+   margin: auto;
+   width: 87%;
+   margin:11px;
+   height:30px;
+}
+  
+.a3 label{
+  
+   padding: 5px;
+ 
+}
+.a3 input{
+    display: block;
+   margin: auto;
+   width: 87%;
+   margin: 11px;
+   height: 30px;
+}
+.a4 label{
+padding: 5px;
+
+ 
+}
+.a4 input{
+     display: block;
+   margin: auto;
+   width: 87%;
+   margin: 11px;
+   height: 30px;
+}
+.a5 label{
+    padding: 5px;
+   
+}
+.a5 input{
+      display: block;
+   margin: auto;
+   width: 87%;
+   margin: 11px;
+   height: 30px;
+}
+.a8 label{
+    padding: 5px;
+   
+}
+.a8 input{
+      display: block;
+   margin: auto;
+   width: 87%;
+   margin: 11px;
+   height: 30px;
+
+}
+.a9 label{
+    padding: 5px;
+   
+}
+.a9 input{
+      display: block;
+   margin: auto;
+   width: 87%;
+   margin: 11px;
+   height: 30px;
+
+}
+
+span label{
+    border: 2px solid skyblue;
+    background-color: skyblue;
+    margin:9px;
+    border-radius: 23px;
+  
+}
+span input{
+    border-radius: 18px;
+        border: 2px solid rgb(96, 173, 96);
+    background-color: honeydew;
+    outline: none;
+    color: darkslategray;
+   
+}
+
+button{
+    color: white;
+    background-color: rgb(96, 173, 96);
+    border: none;
+    outline: none;
+    padding: 8px 30px;
+    border-radius: 23px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: o.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 77%;
+    height: 33px;
+    margin: auto;
+    
+   
+
+}
+
